@@ -47,6 +47,45 @@
 .arrow:active{
     transform: scale(0.8);
 }
-.iconarrow{
+.iconrocket{
     font-size: 40px;
+}
+
+@media (max-width:830px){
+    .heading_home{
+        font-size: 60px;
+    }
+    .iconrocket{
+        font-size: 30px;
+    }
+    .arrow{
+        height: 80px;
+        width: 80px;
+    }
+}
+@media (max-width:640px){
+    .heading_home{
+        font-size: 40px;
+    }
+    .iconrocket{
+        font-size: 30px;
+    }
+    .arrow{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media (max-width:435px){
+    .heading_home{
+        font-size: 30px;
+        text-shadow: 2px 2px 0px greenyellow;
+    }
+    .iconrocket{
+        font-size: 30px;
+    }
+    .arrow{
+        height: 60px;
+        width: 60px;
+    }
 }

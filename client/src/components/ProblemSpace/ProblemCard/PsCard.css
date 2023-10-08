@@ -69,3 +69,40 @@
 .cancel_btn{
     background-color: red;
 }
+
+@media (max-width:930px){
+    .card_container {
+        width: 600px;
+    }
+}
+@media (max-width:726px){
+    .card_container {
+        width: 400px;
+        font-size: 15px;
+    }
+    .apply_btn{
+        font-size: 15px;
+    }
+}
+@media (max-width:510px){
+    .card_container {
+        width: 300px;
+        font-size: 12px;
+    }
+    .apply_btn{
+        font-size: 10px;
+        padding: 7px;
+    }
+
+}
+@media (max-width:392px){
+    .card_container {
+        width: 250px;
+        font-size: 12px;
+    }
+    .apply_btn{
+        font-size: 10px;
+        padding: 7px;
+    }
+
+}

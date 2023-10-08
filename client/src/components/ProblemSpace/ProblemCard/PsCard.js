@@ -61,8 +61,8 @@ const PsCard = ({psname,pscount,psId}) => {
                 </div>
             )}
     <div className='card_container'>
-      <span>{psname}</span>
-      <span>Teams Applied : {pscount} </span>
+      <span><b>{psname}</b></span>
+      <span><b>Teams Applied : </b>{pscount} </span>
       <button className='apply_btn' onClick={openBox}>Apply</button>
     </div>
     </>
