@@ -29,9 +29,13 @@
     /* box-shadow: 3px 3px greenyellow; */
     text-align: center;
 }
-
+.typeit{
+    color: greenyellow;
+    font-family: 'heading';
+    font-size: 25px;
+}
 .arrow{
-    background-color: white;
+    background-color: greenyellow;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -41,7 +45,7 @@
     align-items: center;
 }
 .arrow:hover{
-    background-color: greenyellow;
+    border:2px solid green;
     transform: scale(1.1);
 }
 .arrow:active{
@@ -74,6 +78,9 @@
         height: 60px;
         width: 60px;
     }
+    .typeit{
+        font-size: 17px;
+    }
 }
 
 @media (max-width:435px){
@@ -87,5 +94,8 @@
     .arrow{
         height: 60px;
         width: 60px;
+    }
+    .typeit{
+        font-size: 12px;
     }
 }

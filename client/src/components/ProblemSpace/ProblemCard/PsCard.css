@@ -12,6 +12,7 @@
     justify-content: space-between;
     /* background-image: linear-gradient(to right, #0d6e8e, #4287a3, #67a2b9, #8abdcf, #add8e6); */
     transform: skew(-5deg);
+    box-shadow:2px 2px white;
 }
 
 .card_container > span {
