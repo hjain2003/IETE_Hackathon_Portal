@@ -85,8 +85,9 @@
 
 @media (max-width:435px){
     .heading_home{
-        font-size: 30px;
+        font-size: 35px;
         text-shadow: 2px 2px 0px greenyellow;
+        /* margin-top: -30px; */
     }
     .iconrocket{
         font-size: 30px;
@@ -96,6 +97,6 @@
         width: 60px;
     }
     .typeit{
-        font-size: 12px;
+        font-size: 15px;
     }
 }

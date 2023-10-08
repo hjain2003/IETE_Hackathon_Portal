@@ -91,19 +91,25 @@
         font-size: 12px;
     }
     .apply_btn{
-        font-size: 10px;
-        padding: 7px;
+        font-size: 15px;
+        padding: 10px;
+    }
+    .box{
+        width: 300px;
     }
 
 }
 @media (max-width:392px){
     .card_container {
-        width: 250px;
+        width: 270px;
         font-size: 12px;
     }
     .apply_btn{
-        font-size: 10px;
-        padding: 7px;
+        font-size: 14px;
+        padding: 8.5px;
+    }
+    .box{
+        width: 260px;
     }
 
 }
