@@ -1,0 +1,35 @@
+.ps_full_page{
+    height:100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 20px; */
+}
+
+.psHeading{
+    color: white;
+}
+
+.ps_card_space{
+    /* border: 2px solid white; */
+    padding: 20px;
+    color: white;
+}
+.input_search{
+    font-size: 17px;
+    padding: 7px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.search_btn{
+    font-size: 17px;
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 10px;
+}

@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'heading';
+    src: url('./../../fonts/SuperBrigadeTitle-axXKE.otf');
+}
+.full_page_home{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading_home{
+    color: white;
+    font-size: 60px;
+    font-family: 'heading';
+    text-shadow: 2px 2px 8px greenyellow;
+}
+.home_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 3px 3px greenyellow;
+}
+.arrow{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow:hover{
+    background-color: greenyellow;
+    transform: scale(1.1);
+}
+.arrow:active{
+    transform: scale(0.8);
+}
+.iconarrow{
+    font-size: 40px;
+}
