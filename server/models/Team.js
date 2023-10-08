@@ -9,10 +9,10 @@ const teamSchema = new mongoose.Schema({
     },
     psname:{
         type:mongoose.Schema.Types.ObjectId,
-        ref:'ps'
+        ref:'problem'
     }
 });
 
 
 
-export default model("team", teamSchema);
+export default model("Team", teamSchema);
