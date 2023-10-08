@@ -1,5 +1,6 @@
 .card_container{
     border: 2px solid white;
+    color: lightblue;
     height: 70px;
     width: 800px;
     border-radius: 20px;
@@ -9,6 +10,8 @@
     font-size: 20px;
     flex-direction: row;
     justify-content: space-between;
+    /* background-image: linear-gradient(to right, #0d6e8e, #4287a3, #67a2b9, #8abdcf, #add8e6); */
+    transform: skew(-5deg);
 }
 
 .card_container > span {
@@ -20,7 +23,8 @@
     padding: 10px;
     border-radius: 10px;
     border: none;
-    background-color: greenyellow;
+    background-color: green;
+    color: white;
     cursor: pointer;
 }
 .apply_btn:hover{
@@ -40,6 +44,7 @@
     left:50%;
     transform: translate(-50%,-50%);
     color: black;
+    z-index:1000;
 }
 .box input{
     padding: 10px;

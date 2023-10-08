@@ -1,15 +1,24 @@
+@font-face {
+    font-family: 'heading';
+    src: url('./../../fonts/SuperBrigadeTitle-axXKE.otf');
+}
+
 .ps_full_page{
-    height:100vh;
+    min-height: 100vh;
+    height:auto;
     width: 100%;
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url('../../images/space.jpg');
     /* padding: 20px; */
 }
 
 .psHeading{
     color: white;
+    font-family: 'heading';
+    color: greenyellow;
 }
 
 .ps_card_space{
@@ -21,7 +30,7 @@
     font-size: 17px;
     padding: 7px;
     border: none;
-    border-radius: 20px;
+    border-radius: 5px;
     text-decoration: none;
 }
 .search_btn{

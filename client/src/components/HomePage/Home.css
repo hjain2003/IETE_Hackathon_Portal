@@ -10,12 +10,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url('../../images/space.jpg');
 }
 .heading_home{
     color: white;
-    font-size: 60px;
+    font-size: 80px;
     font-family: 'heading';
-    text-shadow: 2px 2px 8px greenyellow;
+    text-shadow: 3px 3px 0px greenyellow;
 }
 .home_div{
     display: flex;
@@ -23,10 +24,12 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     border-radius: 20px;
-    box-shadow: 3px 3px greenyellow;
+    /* box-shadow: 3px 3px greenyellow; */
+    text-align: center;
 }
+
 .arrow{
     background-color: white;
     width: 100px;
