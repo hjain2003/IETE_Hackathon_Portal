@@ -11,7 +11,7 @@ const ProblemSpace = () => {
     const fetchData = async () => {
       try {
         // Fetch problem statements from your backend API
-        const response = await fetch('http://localhost:5000/hack/problems', {
+        const response = await fetch('https://iete-hack-back.vercel.app/hack/problems', {
           headers: {
             'Content-Type': 'application/json',
           },

@@ -19,7 +19,7 @@ const PsCard = ({psname,pscount,psId}) => {
       setProcc('Processing...');
       try {
         // Send a POST request to your backend to create a team
-        const response = await fetch(`http://localhost:5000/hack/team/${psId}`, {
+        const response = await fetch(`https://iete-hack-back.vercel.app//hack/team/${psId}`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
