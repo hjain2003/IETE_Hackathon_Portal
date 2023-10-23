@@ -1,5 +1,5 @@
 import express from 'express';
-import {createPs, createTeam, getAllProblemStatements, getAllTeams, getProblemStatementCountById } from '../controllers/ps_controller.js';
+import {createPs, createTeam, getAllProblemStatements, getAllTeams } from '../controllers/ps_controller.js';
 
 const psRouter = express.Router();
 

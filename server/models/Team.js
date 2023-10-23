@@ -9,7 +9,7 @@ const teamSchema = new mongoose.Schema({
     },
     psname:{
         type:mongoose.Schema.Types.ObjectId,
-        ref:'problem'
+        ref:'Problem'
     }
 });
 
