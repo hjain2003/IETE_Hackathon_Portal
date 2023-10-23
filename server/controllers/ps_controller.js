@@ -93,3 +93,18 @@ export const getAllProblemStatements = async (req, res) => {
   }
 };
 
+export const getAllTeams = async (req, res) => {
+  try {
+    // Fetch all teams and populate the 'psname' field with the corresponding problem statement information
+    const teams = await Team.find({}, 'teamName teamMembers psname').populate('psname', 'psname');
+
+    if (!teams || teams.length === 0) {
+      return res.status(404).json({ error: 'No teams found' });
+    }
+
+    res.status(200).json(teams);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+

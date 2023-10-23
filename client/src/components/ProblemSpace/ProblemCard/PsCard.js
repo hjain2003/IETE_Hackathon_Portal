@@ -18,7 +18,6 @@ const PsCard = ({psname,pscount,psId}) => {
     const handleSubmit = async () => {
       setProcc('Processing...');
       try {
-        // Send a POST request to your backend to create a team
         const response = await fetch(`https://iete-hack-back.vercel.app/hack/team/${psId}`, {
           method: 'POST',
           headers: {
@@ -35,15 +34,12 @@ const PsCard = ({psname,pscount,psId}) => {
           throw new Error('Failed to create team');
         }
         setProcc('Submit');
-        // Close the input box and handle success (e.g., display a message)
         closeBox();
         window.alert('Registration successfull! Please Reload the page');
-        // You can also update the UI to reflect the increased pscount
   
       } catch (error) {
         setProcc('Submit');
         console.error('Error creating team:', error);
-        // Handle the error (e.g., display an error message)
       }
     };
   return (
